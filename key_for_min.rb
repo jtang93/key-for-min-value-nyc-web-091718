@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
   
   smallest = v[0]
   i = 0
-  while i < v.length-1
+  while i < v.length
     if v[i] < smallest
       smallest = v[i]
       i += 1
