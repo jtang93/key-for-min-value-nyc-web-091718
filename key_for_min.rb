@@ -20,5 +20,5 @@ def key_for_min_value(name_hash)
     end
   end
   k[v.index(smallest)]
-puts "#{k}, #{v}, #{smallest}"
+puts "#{k}, #{v}, #{smallest}, #{k[v.index(smallest)]}"
 end
