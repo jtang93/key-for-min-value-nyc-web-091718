@@ -16,7 +16,6 @@ def key_for_min_value(name_hash)
       smallest = v[i]
       i += 1
     else
-      smallest = v[i+1]
       i += 1
     end
   end
