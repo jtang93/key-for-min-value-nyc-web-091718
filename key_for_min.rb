@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
   end
   
   smallest = 0
-  for i in 
+  for i in v.lenth-1
     if v[v.index(num)] < v[v.index(num)+1]
       smallest = v.index(num)
     else
