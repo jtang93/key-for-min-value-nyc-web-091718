@@ -20,5 +20,5 @@ def key_for_min_value(name_hash)
     end
   end
   k.index(smallest)
-k
+smallest
 end
