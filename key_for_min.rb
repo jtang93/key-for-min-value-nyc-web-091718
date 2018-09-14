@@ -10,11 +10,11 @@ def key_for_min_value(name_hash)
   end
   
   smallest = 0
-  v.each do |index|
-    if v[index] < v[index+1]
-      smallest = v[index]
+  v.each do |num|
+    if v[v.index(num)] < v[v.index(num+1]
+      smallest = v.index(num)
     else
-      smallest = v[index+1]
+      smallest = v.index(num+1)
     end
   end
   k.index(smallest)
